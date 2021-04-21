@@ -24,3 +24,10 @@ Project QuickTime Video: https://drive.google.com/file/d/1UbsbbcZbxn3Runw3nhrn-t
 AWS Services Used: Step Functions, Simple Queue Service (SQS), Identity and Access Management (IAM), Lambda
 
 * Will simulate inventory verification requests from incoming orders in an e-commerce application as part of an order processing workflow
+* Application does not require strict ordering
+* Designed a workflow using Step Functions that will request verification of inventory from a microservice
+  * Microservice used is AWS Lambda
+* Step Functions add a task token to the JSON payload and wait for a callback
+  * JSON code appends .waitForTaskToken to resource
+* IAM role allows Step Functions to access SQS
+* Lambda function will retrieve messages from SQS and return a message to Step Functions that represents the result of the request
