@@ -1,8 +1,8 @@
 # AWS-Projects
 
-## Note: For billing purposes, each project is deleted after creation. Proof of project creation are screen-recorded below.
+### Note: For billing purposes, each project is deleted after creation. Proof of project creation are screen-recorded below.
 
-### Project 1 - Created a stateless, fault tolerant workload using EC2 Auto Scaling with launch templates in order to request EC2 Spot Instances
+## Project 1 - Created a stateless, fault tolerant workload using EC2 Auto Scaling with launch templates in order to request EC2 Spot Instances
 
 Project QuickTime Video: https://drive.google.com/file/d/1bwVJMiCi3hvpsqQFuI1M_zod7WZlX-FY/view?usp=sharing
 
