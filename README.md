@@ -4,7 +4,7 @@ Note: For billing purposes, each project is deleted after completion. Proof of p
 
 ## Project 1 - Created a stateless, fault tolerant workload using EC2 Auto Scaling with launch templates in order to request EC2 Spot Instances
 
-Project QuickTime Video: https://drive.google.com/file/d/1bwVJMiCi3hvpsqQFuI1M_zod7WZlX-FY/view?usp=sharing
+Project QuickTime Video: https://drive.google.com/file/d/1zE0L6xjXycdTbVKwWq7XxTtucpVkhkok/view?usp=sharing
 
 Services Used: EC2 Auto Scaling, EC2 Spot Instances, Application Load Balancer
 
