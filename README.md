@@ -14,6 +14,6 @@ Services Used: EC2 Auto Scaling, EC2 Spot Instances, Application Load Balancer
 * Created a security group with Health Checks enabled that will make the ALB reachable on TCP port 80/http from any Internet IP address
 * Created a launch template that includes paraments required to launch an Amazon EC2 Instance such as the Amazon Machine Image (AMI) ID and an instance type
   * Launch template version is set to latest which means that whenever I update this launch template and a new version is created in the future, the Auto Scaling group will automatically begin to use the latest version on the very next instance it needs to launch
-* Application is stateless and fault tolerant meaning that Spot Instances can be used
+* Spot Instances are used due to the application being stateless and fault tolerant
 * Primary instance type used is c5.large 
 
