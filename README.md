@@ -2,11 +2,11 @@
 
 Note: For billing purposes, each project is deleted after completion. Proof of project creation are screen-recorded below.
 
-## Project 1 - Created a stateless, fault tolerant workload using EC2 Auto Scaling with launch templates in order to request EC2 Spot Instances
+## Project 1 - Created a Stateless, Fault Tolerant Workload with Launch Templates in Order to Request EC2 Spot Instances
 
 Project QuickTime Video: https://drive.google.com/file/d/1zE0L6xjXycdTbVKwWq7XxTtucpVkhkok/view?usp=sharing
 
-Services Used: EC2 Auto Scaling, EC2 Spot Instances, Application Load Balancer
+AWS Services Used: EC2 Auto Scaling, EC2 Spot Instances, Application Load Balancer
 
 * Utilized AWS account's default VPC
 * Application Load Balancer (ALB) will distribute http requests to the fleet of Amazon EC2 Spot Instances created
@@ -17,3 +17,10 @@ Services Used: EC2 Auto Scaling, EC2 Spot Instances, Application Load Balancer
 * Spot Instances are used due to the application being stateless and fault tolerant
 * Primary instance type used is c5.large 
 
+## Project 2 - Created a Serverless Workflow that Orchestrates a Message Queue-Based Microservice
+
+Project QuickTime Video: https://drive.google.com/file/d/1UbsbbcZbxn3Runw3nhrn-tUBlBRH78KX/view?usp=sharing
+
+AWS Services Used: Step Functions, Simple Queue Service (SQS), Identity and Access Management (IAM), Lambda
+
+* Will simulate inventory verification requests from incoming orders in an e-commerce application as part of an order processing workflow
