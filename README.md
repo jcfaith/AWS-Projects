@@ -31,3 +31,7 @@ AWS Services Used: Step Functions, Simple Queue Service (SQS), Identity and Acce
   * JSON code appends .waitForTaskToken to resource
 * IAM role allows Step Functions to access SQS
 * Lambda function will retrieve messages from SQS and return a message to Step Functions that represents the result of the request
+
+## Project 3 - Created a Continuous Delivery Pipeline for a Web Appplication
+* Lambda function will retrieve messages from SQS and return a message to Step Functions that represents the result of the request
+
