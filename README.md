@@ -36,9 +36,7 @@ AWS Services Used: Step Functions, Simple Queue Service (SQS), Identity and Acce
 
 Project QuickTime Video: https://drive.google.com/file/d/1jhFSgiR3-FrEFEIeCZYVkffck9O7GgPM/view?usp=sharing
 
-<p align="center">
-    Application  Architecture:
-</p>
+Application  Architecture:
 
 ![Project 3](https://github.com/jcfaith/AWS-Projects/blob/main/Project%203%20Screen%20Shot.png?raw=true)
 
@@ -59,4 +57,3 @@ AWS Services Used: Elastic Beanstalk, CodeBuild, CodePipeline
 * Used AWS CodePipeline to set up a continuous delivery pipeline with source, build, review, and deploy stages
   * Will detect chances in code stored in GitHub repository, build the source code, then deploy application to Elastic Beanstalk
   * Review stage in pipeline requires a manual approval before a change is deployed
-
