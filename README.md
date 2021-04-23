@@ -38,9 +38,6 @@ Project QuickTime Video: https://drive.google.com/file/d/1jhFSgiR3-FrEFEIeCZYVkf
 
 AWS Services Used: Elastic Beanstalk, CodeBuild, CodePipeline
 
-Application Architecture:
-![Project 3](relative/path/to/Project3ScreenShot.png?raw=true "Title")
-
 * Uses a version control system to store source code
 * Continuous delivery pipeline will automatically deploy the web application whenever source code is updated
 * Github repository titled: 
