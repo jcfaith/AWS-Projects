@@ -36,6 +36,11 @@ AWS Services Used: Step Functions, Simple Queue Service (SQS), Identity and Acce
 
 Project QuickTime Video: https://drive.google.com/file/d/1jhFSgiR3-FrEFEIeCZYVkffck9O7GgPM/view?usp=sharing
 
+<p align="center">
+    Application  Architecture:
+ ![Project 3](https://github.com/jcfaith/AWS-Projects/blob/main/Project%203%20Screen%20Shot.png?raw=true)
+</p>
+
 AWS Services Used: Elastic Beanstalk, CodeBuild, CodePipeline
 
 * Uses a version control system to store source code
