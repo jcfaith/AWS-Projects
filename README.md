@@ -2,7 +2,7 @@
 
 Note: For billing purposes, each project is deleted after completion. Proof of project creation are screen-recorded below. Convert to 720p for a clearer view.
 
-## Project 1 - Created a Stateless, Fault Tolerant Workload with Launch Templates in Order to Request EC2 Spot Instances
+## Project 1 - Stateless, Fault Tolerant Workload with Launch Templates in Order to Request EC2 Spot Instances
 
 Project QuickTime Video: https://drive.google.com/file/d/1zE0L6xjXycdTbVKwWq7XxTtucpVkhkok/view?usp=sharing
 
@@ -17,7 +17,7 @@ AWS Services Used: EC2 Auto Scaling, EC2 Spot Instances, Application Load Balanc
 * Spot Instances are used due to the application being stateless and fault tolerant
 * Primary instance type used is c5.large 
 
-## Project 2 - Created a Serverless Workflow that Orchestrates a Message Queue-Based Microservice
+## Project 2 - Serverless Workflow that Orchestrates a Message Queue-Based Microservice
 
 Project QuickTime Video: https://drive.google.com/file/d/1UbsbbcZbxn3Runw3nhrn-tUBlBRH78KX/view?usp=sharing
 
@@ -32,7 +32,7 @@ AWS Services Used: Step Functions, Simple Queue Service (SQS), Identity and Acce
 * IAM role allows Step Functions to access SQS
 * Lambda function will retrieve messages from SQS and return a message to Step Functions that represents the result of the request
 
-## Project 3 - Created a Continuous Delivery Pipeline for a Web Appplication
+## Project 3 - Continuous Delivery Pipeline for a Web Appplication
 
 Project QuickTime Video: https://drive.google.com/file/d/1jhFSgiR3-FrEFEIeCZYVkffck9O7GgPM/view?usp=sharing
 
