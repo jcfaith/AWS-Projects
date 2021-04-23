@@ -1,6 +1,6 @@
 # AWS-Projects
 
-Note: For billing purposes, each project is deleted after completion. Proof of project creation are screen-recorded below.
+Note: For billing purposes, each project is deleted after completion. Proof of project creation are screen-recorded below. Convert to 720p for a clearer view.
 
 ## Project 1 - Created a Stateless, Fault Tolerant Workload with Launch Templates in Order to Request EC2 Spot Instances
 
@@ -34,10 +34,26 @@ AWS Services Used: Step Functions, Simple Queue Service (SQS), Identity and Acce
 
 ## Project 3 - Created a Continuous Delivery Pipeline for a Web Appplication
 
+Project QuickTime Video: https://drive.google.com/file/d/1jhFSgiR3-FrEFEIeCZYVkffck9O7GgPM/view?usp=sharing
+
 AWS Services Used: Elastic Beanstalk, CodeBuild, CodePipeline
 
 Application Architecture:
+![Project 3](relative/path/to/Project3ScreenShot.png?raw=true "Title")
 
 * Uses a version control system to store source code
-* Continuous delivery pipeline will automatically deploy your web application whenever source code is updated
+* Continuous delivery pipeline will automatically deploy the web application whenever source code is updated
+* Github repository titled: 
+  * Forked a GitHub repository to create a new one
+  * Stored code and metadata in GitHub
+  * Interacted with a code repository using Git
+* Used AWS Elastic Beanstalk to create and deploy a web application
+  * Elastic Beanstalk will provision one or more Amazon EC2 instances when creating an environment
+  * Web server software uses HTTP protocol to serve content over the Internet
+* Used AWS CodeBuild to build source code previously stored in GitHub repository
+  * OAuth Open protocol used to connect GitHub to AWS CodeBuild
+  * CodeBuild uses the provided Buildspec to run a build
+* Used AWS CodePipeline to set up a continuous delivery pipeline with source, build, review, and deploy stages
+  * Will detect chances in code stored in GitHub repository, build the source code, then deploy application to Elastic Beanstalk
+  * Review stage in pipeline requires a manual approval before a change is deployed
 
