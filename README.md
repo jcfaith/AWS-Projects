@@ -39,6 +39,7 @@ Project QuickTime Video: https://drive.google.com/file/d/1jhFSgiR3-FrEFEIeCZYVkf
 <p align="center">
     Application  Architecture:
 </p>
+
 ![Project 3](https://github.com/jcfaith/AWS-Projects/blob/main/Project%203%20Screen%20Shot.png?raw=true)
 
 AWS Services Used: Elastic Beanstalk, CodeBuild, CodePipeline
